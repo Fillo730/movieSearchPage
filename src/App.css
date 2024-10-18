@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.app-title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.app-title-heading {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.app-title-text {
+    font-size: 1.1em;
+    color: #666;
+}
+
+.app-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.app-input-label-inputText {
+    font-size: 1em;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.app-input-inputText {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+    transition: border-color 0.3s;
+}
+
+.app-input-inputText:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.app-input-button {
+    padding: 10px 15px;
+    font-size: 1em;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.app-input-button:hover {
+    background-color: #0056b3;
+}
+
+.app-moviesList {
+    margin: 20px;
+    text-align: center;
+}
+
+.app-movieList-heading {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.app-movieList-ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.app-movieList-ul-li {
+    margin: 10px 0;
+}
